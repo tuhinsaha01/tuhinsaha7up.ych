@@ -69,6 +69,9 @@ body {
   height: 100%;
   width: 70%;
   background: url(Media/7up_featured.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .symbols {
@@ -121,6 +124,8 @@ body {
   width: 40%;
   background: url(Media/7up-simple-color-mobile.jpg);
   position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .second .main .r-main {
@@ -128,6 +133,8 @@ body {
   width: 60%;
   background: url(Media/7up-simple-banner.jpg);
   background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 
@@ -159,6 +166,9 @@ body {
   width: 100%;
   background: url(Media/module_cocktail.jpg);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .third .content {
@@ -210,6 +220,7 @@ body {
   height: 100%;
   width: 100%;
   background: url(Media/module_seeall.jpg);
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -592,29 +603,106 @@ button.bt-01:hover::before {
   transform: scale(1.1); 
 }
 /* animation end */
-
-@media(max-width:1200){
-
-.head .nav{
-  height: 3.4em;
-  width: 5%;
+@media (max-width:1900px){
+  .second .main .l-main h2{
+    font-size: 2.5rem;
+  }
+  .second .main .l-main .content{
+    margin-left: 1.5rem;
+  }
+  .second .main .r-main{
+    width: 93%;
+  }
 }
-.first .first-section .left{
-  width: 50%;
+
+@media (max-width:1440px){
+  .n a {
+    margin-right: 70px;
+  }
+  .second .main .l-main .content{
+    margin-left: 3.5rem;
+  }
+  .second .main .l-main h2 {
+    font-size: 2rem;
+  }
+  .second .main .r-main{
+    width: 86%;
+  }
+  .foot .container{
+    left: 50%;
+  }
+  .six .main-six .right .cont{
+    margin-top: 60px;
+  }
+  .second .main .l-main{
+    width: 37%;
+  }
+}
+
+@media (max-width: 1200px){
+  .n a {
+    margin-right: 70px;
+  }
+  
+.second .main .l-main .content{
+  margin-left: 0.5rem;
+}
+
+.second .main .r-main{
+  background: url(Media/7up-simple-banner-mobile.jpg);
+  width:150% ;
+}
+.first-section .left .content h3{
+  margin-top: 50%;
+}
+.first .first-section .left img {
+  height: 30%;
+  margin-top: 50%;
+  width: 110%;
+}
+.second .main .l-main h2{
+  font-size: 2rem;
 }
 
 
+.fifth{
+  background-repeat: no-repeat;
+}
+.back-2{
+  margin-right: 40px;
+  height: 12.75rem;
+  width: 6.375rem;
+}
 
+.back-1{
+  margin-left: 97px;
+  height: 12.75rem;
+  width: 6.375rem;
+}
 
+.six .main-six .right .cont{
+  margin-top: 14px;
+}
 
+.div img{
+  width: 220px;
+  margin-left: 21px;
+}
+.head1{
+  margin-top: 150px;
+}
+.glass1{
+  margin-top: 450px;
+}
+.foot{
+  width: 1550px;
+}
+.foot .container{
+  left: 35%;
+}
 
-
-
-
-
-
-
-
-
-
+.foot .banner{
+  width: 1860px;
+}
+  
 }
